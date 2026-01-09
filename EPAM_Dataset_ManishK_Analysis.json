@@ -1,0 +1,34 @@
+{
+    "file": "https://raw.githubusercontent.com/manishkhairnar3-stack/ManishK_EPAM_Analysis/refs/heads/main/ManishK_EPAM_DataforUpset.csv",
+    "name": "EPAM_Dataset_ManishK_Analysis.json",
+    "header": 0,
+    "separator": ",",
+    "skip": 0,
+    "meta": [
+        { "type": "id", "index": 0, "name": "Gene" },
+        { "type": "integer", "index": 1, "name": "EC_Reg" },
+        { "type": "integer", "index": 2, "name": "EC_UP" },
+        { "type": "integer", "index": 3, "name": "EC_DOWN" },
+        { "type": "integer", "index": 4, "name": "PC_Reg" },
+        { "type": "integer", "index": 5, "name": "PC_UP" },
+        { "type": "integer", "index": 6, "name": "PC_DOWN" },
+        { "type": "integer", "index": 7, "name": "AC_Reg" },
+        { "type": "integer", "index": 8, "name": "AC_UP" },
+        { "type": "integer", "index": 9, "name": "AC_DOWN" },
+        { "type": "integer", "index": 10, "name": "MC_Reg" },
+        { "type": "integer", "index": 11, "name": "MC_UP" },
+        { "type": "integer", "index": 12, "name": "MC_DOWN" },
+        { "type": "realnumber", "index": 13, "name": "EC_log2(FC)" },
+        { "type": "realnumber", "index": 14, "name": "EC_Padj" },
+        { "type": "realnumber", "index": 15, "name": "PC_log2(FC)" },
+        { "type": "realnumber", "index": 16, "name": "PC_Padj },
+        { "type": "realnumber", "index": 17, "name": "AC_log2(FC)" },
+        { "type": "realnumber", "index": 18, "name": "AC_Padj" },
+        { "type": "realnumber", "index": 19, "name": "MC_log2(FC)" },
+        { "type": "realnumber", "index": 20, "name": "MC_Padj" },
+        { "type": "realnumber", "index": 21, "name": "GeneID" }
+    ],
+    "sets": [
+        { "format": "binary", "start": 1, "end": 12 }
+    ]
+}
